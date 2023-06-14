@@ -1,0 +1,78 @@
+/* new.css */
+@import url('style.css');
+#title{
+    padding-top: 1%;
+}
+#contenedor {
+    height: auto;
+    display:block;
+    text-align: center;
+    margin: auto auto;
+    width:40%;
+    
+}
+#formulario{
+    font-size: 1.3em;
+    text-align: center;
+}
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 7px;
+    border: 2px solid #b2b2b2;
+    height: 40px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+    width: 70%;
+    margin:0 auto;
+}
+input{
+    width: 100%;
+    height:40px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    padding-left: 10px;
+    
+}
+input .formulario{
+    width: 100%;
+    height: 150px;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+input[type="file"] {
+    text-align:center;
+    margin-top:1em;
+    border: none;
+}
+button{
+    background-color: #ff9900;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 3%;
+    color: black;
+    font-family: Poppins;
+    width: 50%;
+    
+}
+
+button:hover {
+    background-color: #ffcc00;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+#actual-btn{
+    justify-content: center;
+    text-align: center;
+}
+#title{
+    margin: 2%;
+}
+
+
+
+

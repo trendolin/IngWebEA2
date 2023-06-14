@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/new.css" />
+    <title>
+        Restaurantería: Nuevo Restaurante
+    </title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="image-container" id="logo">
+            <img src="/ImagenesApp/Restaurantería.png" alt="Logo Restauranteria" />
+        </div>
+        <nav class="home" id="home">
+            <ul>
+                <a href="/index.html">Inicio</a>
+                <a href="/páginas/search.html">Restaurantes</a>
+                <a href="/páginas/new.html">Agregar</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor" id="contenedor">
+           
+                <div class="title" id="title">
+                    <h1>Agregar nuevo restaurante</h1>
+                </div>
+                <div class="container" id="newrestaurant"></div>
+                <div class="agregar"></div>
+                <label class="formulario" id="formulario">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Inserte nombre del restaurante" class="formulario-int" />
+                <label class="formulario" id="formulario">Descripción:</label>
+                <input type="text" id="descripción" placeholder="Descripción del restaurante" class="formulario-int" />
+                <label class="formulario" id="formulario">Dirección:</label>
+                <input type="text" id="direccion" placeholder="Dirección" class="formulario-int" />
+                <label class="upload" id="formulario">Cargar Imagen:</label>
+                <input type="file" id="actual-btn" placeholder="Insertar foto de producto o logo"/>
+                <button id="btnAgregarRestaurante">Agregar Restaurante</button>
+        
+        </div>
+    </main>
+    <script src="../JS/script.js"></script>
+
+</body>
+</html>

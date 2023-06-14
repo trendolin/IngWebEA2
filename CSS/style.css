@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+/*Estilización general de la página*/
+main{
+    min-height: 60vh;
+}
+
+body {
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    background-color: beige;
+}
+
+body .image-container img {
+    width: 100%;
+    
+    
+}
+
+/*header styling*/
+header{
+    background: #ff9900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1.3em;    
+}
+
+nav.home ul{
+    display: flex;
+    gap: 10px;
+}
+
+nav.home ul a {
+    display: inline-block;
+}
+
+section{
+    align-content: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 160px;
+    margin-bottom: 1%;
+    
+}
+
+/*Home Styling*/
+
+
+.home a{
+    text-decoration: none;
+    color: #050505e0;
+    display:inline-block;
+    font-weight: bold;
+    
+}
+
+/*Hero Styling*/
+#pacificomar, #italiano, #fritosymas, #pollofrito
+
+    {
+        height: auto;
+        display:grid;
+        justify-content: center;
+        align-items:baseline;
+        text-align: center;
+        margin: 30px;
+        padding: 20px 12px;
+        max-width: 250px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }   
+
+
+#restaurantes {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+
+
+
